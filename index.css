@@ -1,0 +1,31 @@
+body{
+    background-image: url('./cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA3L2pvYjE0NDgtYmFja2dyb3VuZC0wNGEteF8xLmpwZw.webp');
+}
+.img1{
+    border-radius: 50%;
+}
+.instagram{
+    width: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.a1{
+    font-size: 29px;
+    color: green;
+    text-decoration: none;
+    position: relative;
+    
+}
+.a1::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    background: green;
+    height: 3px;
+    top: 35px;
+    transition: 0.7s;
+}
+.a1:hover::before{
+    width: 100%;
+}
